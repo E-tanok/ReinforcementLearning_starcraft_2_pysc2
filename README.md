@@ -22,7 +22,8 @@ In order to start training :
       - 'restored_policy_type' [str] : refers to the type of policy you want to restore from your old session (right now, there are just 'a3c' and 'random')
 
 - 2 : If you want to set custom parameters (or to modify the default parameters) :
-      - Go at 'parameters_custom.py' (resp 'parameters_default.py'; both files have the same structure) :
+
+            - Go at 'parameters_custom.py' (resp 'parameters_default.py'; both files have the same structure)
             - 'Environment parameters':
                   - 'step_mul' [int] : The environment steps multiplier : the higher it is, the less the agent has time to react when the game sends inputs (more details at https://github.com/deepmind/pysc2/blob/master/docs/environment.md#game-speed)
                   - 'n_workers' [int] : The number of workers you want to use
@@ -70,6 +71,8 @@ In order to start training :
 
 # Acknowledgement :
 
-I would like to thank my tutor, [Judith Abécassis](bit.ly/judith_abecassis), which accompanied me in my journey of data science student
+I would like to thank my tutor, [Judith Abécassis](bit.ly/judith_abecassis), which accompanied me in my journey of data science student.
+
 I would also like to thank [Arthur Juliani](https://twitter.com/awjuliani) whose tutorials learn't me a lot to understand the reinforcement learning field. The A3C implementation is inspired from  [it's own implementation](http://bit.ly/a_jul_a3c), with some modifications.
+
 Finally, I would like to thank the [psys2 community](bit.ly/discord_pysc2), particularly [Ring Roman](https://github.com/inoryy) which helped me a lot. About that, don't hesitate to check it's own project, [reaver](https://github.com/inoryy/reaver-pysc2) which allows to train agents in starcraft2 and in other games too.
