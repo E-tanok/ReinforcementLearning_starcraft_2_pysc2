@@ -69,7 +69,12 @@ In order to start training :
 - 4 : Run "python main.py"
 
 ## Results :
-*Coming soon; The agent is already able to equalize the Deepmind's performances on the game MoveToBeacon*
+- MoveToBeacon (with the action "move_screen" for now) :
+![alt text](https://github.com/E-tanok/projects_pictures/blob/master/ReinforcementLearning/starcraft_2_pysc2/a3c/a3c_5_workers_action_move_screen.png)
+*The agent equalize the Deepmind's performances on the game MoveToBeacon ; this results provides from 5 agents trained with the actions spectrum restricted on ['331']/"move_screen"*
+- Other mini-games :
+*In future pushes*
+
 
 # Acknowledgement :
 
