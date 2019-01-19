@@ -80,9 +80,9 @@ In order to start training :
 
 I would like to thank my tutor, [Judith Abécassis](bit.ly/judith_abecassis), which accompanied me in my journey of data science student.
 
-I would also like to thank [Arthur Juliani](https://twitter.com/awjuliani) whose tutorials learn't me a lot to understand the reinforcement learning field. The A3C implementation is inspired from  [it's own implementation](http://bit.ly/a_jul_a3c), with some modifications.
+I would also like to thank [Arthur Juliani](https://twitter.com/awjuliani) whose tutorials learn't me a lot to understand the reinforcement learning field. My A3C implementation is inspired from  [it's own implementation](http://bit.ly/a_jul_a3c), with some modifications.
 
 Finally, I would like to thank the [psys2 community](bit.ly/discord_pysc2), particularly :
   - [Ring Roman](https://github.com/inoryy). About that, don't hesitate to check it's own project, [reaver](https://github.com/inoryy/reaver-pysc2) which allows to train agents in starcraft2 and in other games too.
   - [Steven Brown](https://chatbotslife.com/@skjb). He proposes tutorials to build scripted pysc2 agents : a good way to understand the library.
-  - "petitTofu42" and other members of the discord! 
+  - "petitTofu42" and other members of the discord!
